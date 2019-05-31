@@ -13,16 +13,26 @@
     margin-bottom: 0;
 }
 .techIcons {
-    margin-top: 20px;
-    font-size: 1.7rem;
+    margin-top: 15px;
+    font-size: 2.4rem;
 }
 .icon:hover {
     font-size: 1.2em;
+}
+
+/* Vertical Mobile Browsing */
+@media only screen and (max-width: 480px){
+    .mobileHide {
+        display:none;
+    }
 }
 /* Medium Browser */
 @media only screen and (min-width: 481px) and (max-width: 991px ){
     .techIcons {
         font-size: 2.6rem;
+    }
+    .mobileShow {
+        display: none;
     }
 }
 
@@ -31,11 +41,17 @@
     .techIcons {
         font-size: 2.8rem;
     }
+    .mobileShow {
+        display: none;
+    }
 }
 
 /* Wide Browser */
 @media only screen and (min-width: 1200px){
     .techIcons {
         font-size: 3rem;
+    }
+    .mobileShow {
+        display: none;
     }
 }

@@ -15,12 +15,12 @@ hr {
 .tweezTextOverflow, .fakeTextOverflow, .nsaTextOverflow{
     font-family: 'Montserrat', sans-serif;
     display: none;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     text-align: left;
     padding: 0px 5px;
-    height: 80px;
+    /* height: 80px;
     overflow: hidden;
-    overflow-y: scroll;
+    overflow-y: scroll; */
 }
 .techs {
     font-size: 0.8rem;
