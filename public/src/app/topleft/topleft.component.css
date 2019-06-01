@@ -37,7 +37,7 @@ hr {
     background-image: url('../../assets/images/tweezerthumb.png');
     background-size: 100%;
     width: 100%;
-    height: 150px;
+    height: 138px;
 }
 .tweezerStatic:hover {
     background-image: url('../../assets/images/tweezerhover.gif');
@@ -101,6 +101,9 @@ button {
         display: block;
         overflow-y: scroll;
     }
+    .tweezerStatic {
+        height: 90px;
+    }
     .nsaStatic {
         height: 95px;
     }
@@ -126,6 +129,9 @@ button {
         display: inline-block;
         overflow: visible;
         font-size: 0.7em;
+    }
+    .tweezerStatic {
+        height: 110px;
     }
     .nsaStatic {
         height: 130px;
